@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite AFamily">
+
+<listeners>
+    <listener class-name = "listener.CustomListener"></listener>
+</listeners>
+  
+  <test  name="TestA">
+    <classes>
+      <class name="a_family.A"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TestAA">
+    <classes>
+      <class name="a_family.AA"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TestAAA">
+    <classes>
+      <class name="a_family.AAA"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

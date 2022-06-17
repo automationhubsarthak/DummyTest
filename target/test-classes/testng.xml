@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite CompleteFamily">
+<listeners>
+    <listener class-name = "listener.CustomListener"></listener>
+</listeners>
+
+<suite-files>
+  <suite-file path = "testngAFamily.xml"></suite-file>
+  <suite-file path = "testngBFamily.xml"></suite-file>
+  <suite-file path = "testngCFamily.xml"></suite-file>
+</suite-files>
+
+
+</suite> <!-- Suite -->
